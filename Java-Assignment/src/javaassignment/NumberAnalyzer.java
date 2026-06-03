@@ -83,7 +83,7 @@ public class NumberAnalyzer {
 
 
     /**
-     * Checks whether a given integer is positive, negative, or zero.
+     * This method checks whether a given integer is positive, negative, or zero.
      *
      * @param number the integer value to check
      * @return "Positive", "Negative", or "Zero" depending on the input number.
