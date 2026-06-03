@@ -50,7 +50,7 @@ public class NumberAnalyzer {
     }
 
     /**
-     * Prints numbers from 10 to 1 in descending order
+     * This method prints numbers from 10 to 1 in descending order
      *
      */
     public static void printNumbersDescending()
@@ -62,7 +62,8 @@ public class NumberAnalyzer {
     }
 
     /**
-     * Prints numbers from 1 to 10 and indicates whether each number is even or odd
+     * This method checks numbers from 1 to 10 and prints whether they are even or odd
+     * then prints the result in the format "number -> Even/Odd"
      *
      */
     public static void printEvenOrOdd()
@@ -85,7 +86,7 @@ public class NumberAnalyzer {
      * Checks whether a given integer is positive, negative, or zero.
      *
      * @param number the integer value to check
-     * @return "Positive", "Negative", or "Zero" depending on the input value
+     * @return "Positive", "Negative", or "Zero" depending on the input number.
      */
     public static String checkNumberType(int number)
     {
@@ -104,6 +105,7 @@ public class NumberAnalyzer {
     }
 
     /**
+     * This method takes two integer parameters and returns their sum.
      *
      * @param number1
      * @param number2
